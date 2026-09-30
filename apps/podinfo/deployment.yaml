@@ -20,9 +20,9 @@ spec:
             - containerPort: 9898
           env:
             - name: PODINFO_UI_COLOR
-              value: "#2e8b57"
+              value: "#34577c"
             - name: PODINFO_UI_MESSAGE
-              value: "Version 2 - delivered via git commit"
+              value: "Version 1 - deployed by FluxCD"
           resources:
             requests:
               cpu: 50m
